@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		753AE3F574ACEA1C7128351C /* libPods-BWiOSEffectiveCoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F235E382E65A929E4845D344 /* libPods-BWiOSEffectiveCoding.a */; };
+		B48C3C711E67BD70000FD75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3C701E67BD70000FD75B /* main.m */; };
+		B48C3C741E67BD70000FD75B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3C731E67BD70000FD75B /* AppDelegate.m */; };
+		B48C3C771E67BD70000FD75B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3C761E67BD70000FD75B /* ViewController.m */; };
+		B48C3C7A1E67BD70000FD75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C3C781E67BD70000FD75B /* Main.storyboard */; };
+		B48C3C7C1E67BD70000FD75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48C3C7B1E67BD70000FD75B /* Assets.xcassets */; };
+		B48C3C7F1E67BD70000FD75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C3C7D1E67BD70000FD75B /* LaunchScreen.storyboard */; };
+		B48C3C8A1E67BD70000FD75B /* BWiOSEffectiveCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3C891E67BD70000FD75B /* BWiOSEffectiveCodingTests.m */; };
+		B48C3C951E67BD70000FD75B /* BWiOSEffectiveCodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3C941E67BD70000FD75B /* BWiOSEffectiveCodingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B48C3C861E67BD70000FD75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48C3C641E67BD70000FD75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48C3C6B1E67BD70000FD75B;
+			remoteInfo = BWiOSEffectiveCoding;
+		};
+		B48C3C911E67BD70000FD75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48C3C641E67BD70000FD75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48C3C6B1E67BD70000FD75B;
+			remoteInfo = BWiOSEffectiveCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B30D242787AB2612052B53 /* Pods-BWiOSEffectiveCoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSEffectiveCoding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSEffectiveCoding/Pods-BWiOSEffectiveCoding.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C9C4FCB2B47B61B9E306EA /* Pods-BWiOSEffectiveCoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSEffectiveCoding.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSEffectiveCoding/Pods-BWiOSEffectiveCoding.release.xcconfig"; sourceTree = "<group>"; };
+		B48C3C6C1E67BD70000FD75B /* BWiOSEffectiveCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWiOSEffectiveCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48C3C701E67BD70000FD75B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B48C3C721E67BD70000FD75B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B48C3C731E67BD70000FD75B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B48C3C751E67BD70000FD75B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B48C3C761E67BD70000FD75B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B48C3C791E67BD70000FD75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B48C3C7B1E67BD70000FD75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48C3C7E1E67BD70000FD75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B48C3C801E67BD70000FD75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48C3C851E67BD70000FD75B /* BWiOSEffectiveCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSEffectiveCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48C3C891E67BD70000FD75B /* BWiOSEffectiveCodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSEffectiveCodingTests.m; sourceTree = "<group>"; };
+		B48C3C8B1E67BD70000FD75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48C3C901E67BD70000FD75B /* BWiOSEffectiveCodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSEffectiveCodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48C3C941E67BD70000FD75B /* BWiOSEffectiveCodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSEffectiveCodingUITests.m; sourceTree = "<group>"; };
+		B48C3C961E67BD70000FD75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F235E382E65A929E4845D344 /* libPods-BWiOSEffectiveCoding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSEffectiveCoding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48C3C691E67BD70000FD75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753AE3F574ACEA1C7128351C /* libPods-BWiOSEffectiveCoding.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48C3C821E67BD70000FD75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48C3C8D1E67BD70000FD75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B0F6840B3D9EC9CAC8DA3D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F235E382E65A929E4845D344 /* libPods-BWiOSEffectiveCoding.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BCF026690D3A6C15F99E13F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07B30D242787AB2612052B53 /* Pods-BWiOSEffectiveCoding.debug.xcconfig */,
+				A4C9C4FCB2B47B61B9E306EA /* Pods-BWiOSEffectiveCoding.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B48C3C631E67BD70000FD75B = {
+			isa = PBXGroup;
+			children = (
+				B48C3C6E1E67BD70000FD75B /* BWiOSEffectiveCoding */,
+				B48C3C881E67BD70000FD75B /* BWiOSEffectiveCodingTests */,
+				B48C3C931E67BD70000FD75B /* BWiOSEffectiveCodingUITests */,
+				B48C3C6D1E67BD70000FD75B /* Products */,
+				5BCF026690D3A6C15F99E13F /* Pods */,
+				5B0F6840B3D9EC9CAC8DA3D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B48C3C6D1E67BD70000FD75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48C3C6C1E67BD70000FD75B /* BWiOSEffectiveCoding.app */,
+				B48C3C851E67BD70000FD75B /* BWiOSEffectiveCodingTests.xctest */,
+				B48C3C901E67BD70000FD75B /* BWiOSEffectiveCodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48C3C6E1E67BD70000FD75B /* BWiOSEffectiveCoding */ = {
+			isa = PBXGroup;
+			children = (
+				B48C3C721E67BD70000FD75B /* AppDelegate.h */,
+				B48C3C731E67BD70000FD75B /* AppDelegate.m */,
+				B48C3C751E67BD70000FD75B /* ViewController.h */,
+				B48C3C761E67BD70000FD75B /* ViewController.m */,
+				B48C3C781E67BD70000FD75B /* Main.storyboard */,
+				B48C3C7B1E67BD70000FD75B /* Assets.xcassets */,
+				B48C3C7D1E67BD70000FD75B /* LaunchScreen.storyboard */,
+				B48C3C801E67BD70000FD75B /* Info.plist */,
+				B48C3C6F1E67BD70000FD75B /* Supporting Files */,
+			);
+			path = BWiOSEffectiveCoding;
+			sourceTree = "<group>";
+		};
+		B48C3C6F1E67BD70000FD75B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48C3C701E67BD70000FD75B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B48C3C881E67BD70000FD75B /* BWiOSEffectiveCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B48C3C891E67BD70000FD75B /* BWiOSEffectiveCodingTests.m */,
+				B48C3C8B1E67BD70000FD75B /* Info.plist */,
+			);
+			path = BWiOSEffectiveCodingTests;
+			sourceTree = "<group>";
+		};
+		B48C3C931E67BD70000FD75B /* BWiOSEffectiveCodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B48C3C941E67BD70000FD75B /* BWiOSEffectiveCodingUITests.m */,
+				B48C3C961E67BD70000FD75B /* Info.plist */,
+			);
+			path = BWiOSEffectiveCodingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48C3C6B1E67BD70000FD75B /* BWiOSEffectiveCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48C3C991E67BD70000FD75B /* Build configuration list for PBXNativeTarget "BWiOSEffectiveCoding" */;
+			buildPhases = (
+				4E31C806CFD8482E9715DA2D /* [CP] Check Pods Manifest.lock */,
+				B48C3C681E67BD70000FD75B /* Sources */,
+				B48C3C691E67BD70000FD75B /* Frameworks */,
+				B48C3C6A1E67BD70000FD75B /* Resources */,
+				703DB8CA8680C387C5F2FA1B /* [CP] Embed Pods Frameworks */,
+				B8BFEB00786EFA62973BF79A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWiOSEffectiveCoding;
+			productName = BWiOSEffectiveCoding;
+			productReference = B48C3C6C1E67BD70000FD75B /* BWiOSEffectiveCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B48C3C841E67BD70000FD75B /* BWiOSEffectiveCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48C3C9C1E67BD70000FD75B /* Build configuration list for PBXNativeTarget "BWiOSEffectiveCodingTests" */;
+			buildPhases = (
+				B48C3C811E67BD70000FD75B /* Sources */,
+				B48C3C821E67BD70000FD75B /* Frameworks */,
+				B48C3C831E67BD70000FD75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48C3C871E67BD70000FD75B /* PBXTargetDependency */,
+			);
+			name = BWiOSEffectiveCodingTests;
+			productName = BWiOSEffectiveCodingTests;
+			productReference = B48C3C851E67BD70000FD75B /* BWiOSEffectiveCodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B48C3C8F1E67BD70000FD75B /* BWiOSEffectiveCodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48C3C9F1E67BD70000FD75B /* Build configuration list for PBXNativeTarget "BWiOSEffectiveCodingUITests" */;
+			buildPhases = (
+				B48C3C8C1E67BD70000FD75B /* Sources */,
+				B48C3C8D1E67BD70000FD75B /* Frameworks */,
+				B48C3C8E1E67BD70000FD75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48C3C921E67BD70000FD75B /* PBXTargetDependency */,
+			);
+			name = BWiOSEffectiveCodingUITests;
+			productName = BWiOSEffectiveCodingUITests;
+			productReference = B48C3C901E67BD70000FD75B /* BWiOSEffectiveCodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48C3C641E67BD70000FD75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BobWong;
+				TargetAttributes = {
+					B48C3C6B1E67BD70000FD75B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V3E8GUFW32;
+						ProvisioningStyle = Automatic;
+					};
+					B48C3C841E67BD70000FD75B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V3E8GUFW32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B48C3C6B1E67BD70000FD75B;
+					};
+					B48C3C8F1E67BD70000FD75B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V3E8GUFW32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B48C3C6B1E67BD70000FD75B;
+					};
+				};
+			};
+			buildConfigurationList = B48C3C671E67BD70000FD75B /* Build configuration list for PBXProject "BWiOSEffectiveCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48C3C631E67BD70000FD75B;
+			productRefGroup = B48C3C6D1E67BD70000FD75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48C3C6B1E67BD70000FD75B /* BWiOSEffectiveCoding */,
+				B48C3C841E67BD70000FD75B /* BWiOSEffectiveCodingTests */,
+				B48C3C8F1E67BD70000FD75B /* BWiOSEffectiveCodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48C3C6A1E67BD70000FD75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48C3C7F1E67BD70000FD75B /* LaunchScreen.storyboard in Resources */,
+				B48C3C7C1E67BD70000FD75B /* Assets.xcassets in Resources */,
+				B48C3C7A1E67BD70000FD75B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48C3C831E67BD70000FD75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48C3C8E1E67BD70000FD75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E31C806CFD8482E9715DA2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		703DB8CA8680C387C5F2FA1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWiOSEffectiveCoding/Pods-BWiOSEffectiveCoding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BFEB00786EFA62973BF79A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWiOSEffectiveCoding/Pods-BWiOSEffectiveCoding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48C3C681E67BD70000FD75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48C3C771E67BD70000FD75B /* ViewController.m in Sources */,
+				B48C3C741E67BD70000FD75B /* AppDelegate.m in Sources */,
+				B48C3C711E67BD70000FD75B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48C3C811E67BD70000FD75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48C3C8A1E67BD70000FD75B /* BWiOSEffectiveCodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48C3C8C1E67BD70000FD75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48C3C951E67BD70000FD75B /* BWiOSEffectiveCodingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B48C3C871E67BD70000FD75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48C3C6B1E67BD70000FD75B /* BWiOSEffectiveCoding */;
+			targetProxy = B48C3C861E67BD70000FD75B /* PBXContainerItemProxy */;
+		};
+		B48C3C921E67BD70000FD75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48C3C6B1E67BD70000FD75B /* BWiOSEffectiveCoding */;
+			targetProxy = B48C3C911E67BD70000FD75B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B48C3C781E67BD70000FD75B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48C3C791E67BD70000FD75B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B48C3C7D1E67BD70000FD75B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48C3C7E1E67BD70000FD75B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48C3C971E67BD70000FD75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B48C3C981E67BD70000FD75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48C3C9A1E67BD70000FD75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B30D242787AB2612052B53 /* Pods-BWiOSEffectiveCoding.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWiOSEffectiveCoding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSEffectiveCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B48C3C9B1E67BD70000FD75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C9C4FCB2B47B61B9E306EA /* Pods-BWiOSEffectiveCoding.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWiOSEffectiveCoding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSEffectiveCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B48C3C9D1E67BD70000FD75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWiOSEffectiveCodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSEffectiveCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWiOSEffectiveCoding.app/BWiOSEffectiveCoding";
+			};
+			name = Debug;
+		};
+		B48C3C9E1E67BD70000FD75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWiOSEffectiveCodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSEffectiveCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWiOSEffectiveCoding.app/BWiOSEffectiveCoding";
+			};
+			name = Release;
+		};
+		B48C3CA01E67BD70000FD75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWiOSEffectiveCodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSEffectiveCodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BWiOSEffectiveCoding;
+			};
+			name = Debug;
+		};
+		B48C3CA11E67BD70000FD75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWiOSEffectiveCodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSEffectiveCodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BWiOSEffectiveCoding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48C3C671E67BD70000FD75B /* Build configuration list for PBXProject "BWiOSEffectiveCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48C3C971E67BD70000FD75B /* Debug */,
+				B48C3C981E67BD70000FD75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48C3C991E67BD70000FD75B /* Build configuration list for PBXNativeTarget "BWiOSEffectiveCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48C3C9A1E67BD70000FD75B /* Debug */,
+				B48C3C9B1E67BD70000FD75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48C3C9C1E67BD70000FD75B /* Build configuration list for PBXNativeTarget "BWiOSEffectiveCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48C3C9D1E67BD70000FD75B /* Debug */,
+				B48C3C9E1E67BD70000FD75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48C3C9F1E67BD70000FD75B /* Build configuration list for PBXNativeTarget "BWiOSEffectiveCodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48C3CA01E67BD70000FD75B /* Debug */,
+				B48C3CA11E67BD70000FD75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B48C3C641E67BD70000FD75B /* Project object */;
+}
