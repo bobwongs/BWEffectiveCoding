@@ -69,7 +69,7 @@ BWAPIManagerGetterTemplate(NSObject, apiManager1)
 
 Xcode面板位置：Utilities -> Code Snippets Library
 
-![xcode_code_snippets](/Users/BobWong/BobWong/Development/Github/Development/BWEffectiveCoding/Resource/xcode_code_snippets.png)
+![xcode_code_snippets](Resource/xcode_code_snippets.png)
 
 Code Snippets存储路径：~/Library/Developer/Xcode/UserData/CodeSnippets/
 
@@ -85,7 +85,7 @@ Platform、Language、Completion Scopes
 
 示例
 
-![xcode_add_code_snippets](/Users/BobWong/BobWong/Development/Github/Development/BWEffectiveCoding/Resource/xcode_add_code_snippets.png)
+![xcode_add_code_snippets](Resource/xcode_add_code_snippets.png)
 
 
 
