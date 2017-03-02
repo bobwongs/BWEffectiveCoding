@@ -1,0 +1,17 @@
+//
+//  BWiOSEffectiveCoding.pch
+//  BWiOSEffectiveCoding
+//
+//  Created by BobWong on 2017/3/2.
+//  Copyright © 2017年 BobWong. All rights reserved.
+//
+
+#ifndef BWiOSEffectiveCoding_pch
+#define BWiOSEffectiveCoding_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "BWMacroDefinition.h"
+
+#endif /* BWiOSEffectiveCoding_pch */

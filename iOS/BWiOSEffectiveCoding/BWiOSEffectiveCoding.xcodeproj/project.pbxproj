@@ -16,6 +16,7 @@
 		B48C3C7F1E67BD70000FD75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C3C7D1E67BD70000FD75B /* LaunchScreen.storyboard */; };
 		B48C3C8A1E67BD70000FD75B /* BWiOSEffectiveCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3C891E67BD70000FD75B /* BWiOSEffectiveCodingTests.m */; };
 		B48C3C951E67BD70000FD75B /* BWiOSEffectiveCodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3C941E67BD70000FD75B /* BWiOSEffectiveCodingUITests.m */; };
+		B48C3CAB1E67D4E5000FD75B /* BWEffectiveCodingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3CAA1E67D4E5000FD75B /* BWEffectiveCodingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,10 @@
 		B48C3C901E67BD70000FD75B /* BWiOSEffectiveCodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSEffectiveCodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48C3C941E67BD70000FD75B /* BWiOSEffectiveCodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSEffectiveCodingUITests.m; sourceTree = "<group>"; };
 		B48C3C961E67BD70000FD75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48C3CA71E67D257000FD75B /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B48C3CA81E67D3F5000FD75B /* BWiOSEffectiveCoding.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWiOSEffectiveCoding.pch; sourceTree = "<group>"; };
+		B48C3CA91E67D4E5000FD75B /* BWEffectiveCodingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWEffectiveCodingVC.h; sourceTree = "<group>"; };
+		B48C3CAA1E67D4E5000FD75B /* BWEffectiveCodingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWEffectiveCodingVC.m; sourceTree = "<group>"; };
 		F235E382E65A929E4845D344 /* libPods-BWiOSEffectiveCoding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSEffectiveCoding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,10 +134,9 @@
 				B48C3C731E67BD70000FD75B /* AppDelegate.m */,
 				B48C3C751E67BD70000FD75B /* ViewController.h */,
 				B48C3C761E67BD70000FD75B /* ViewController.m */,
+				B48C3CA21E67D231000FD75B /* EffectiveCoding */,
 				B48C3C781E67BD70000FD75B /* Main.storyboard */,
 				B48C3C7B1E67BD70000FD75B /* Assets.xcassets */,
-				B48C3C7D1E67BD70000FD75B /* LaunchScreen.storyboard */,
-				B48C3C801E67BD70000FD75B /* Info.plist */,
 				B48C3C6F1E67BD70000FD75B /* Supporting Files */,
 			);
 			path = BWiOSEffectiveCoding;
@@ -142,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				B48C3C701E67BD70000FD75B /* main.m */,
+				B48C3C801E67BD70000FD75B /* Info.plist */,
+				B48C3C7D1E67BD70000FD75B /* LaunchScreen.storyboard */,
+				B48C3CA81E67D3F5000FD75B /* BWiOSEffectiveCoding.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +169,48 @@
 				B48C3C961E67BD70000FD75B /* Info.plist */,
 			);
 			path = BWiOSEffectiveCodingUITests;
+			sourceTree = "<group>";
+		};
+		B48C3CA21E67D231000FD75B /* EffectiveCoding */ = {
+			isa = PBXGroup;
+			children = (
+				B48C3CA61E67D231000FD75B /* MacroDefinition */,
+				B48C3CA31E67D231000FD75B /* CodeGenerator */,
+				B48C3CA41E67D231000FD75B /* CodeSnippets */,
+				B48C3CA51E67D231000FD75B /* Document */,
+			);
+			path = EffectiveCoding;
+			sourceTree = "<group>";
+		};
+		B48C3CA31E67D231000FD75B /* CodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeGenerator;
+			sourceTree = "<group>";
+		};
+		B48C3CA41E67D231000FD75B /* CodeSnippets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeSnippets;
+			sourceTree = "<group>";
+		};
+		B48C3CA51E67D231000FD75B /* Document */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		B48C3CA61E67D231000FD75B /* MacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				B48C3CA71E67D257000FD75B /* BWMacroDefinition.h */,
+				B48C3CA91E67D4E5000FD75B /* BWEffectiveCodingVC.h */,
+				B48C3CAA1E67D4E5000FD75B /* BWEffectiveCodingVC.m */,
+			);
+			path = MacroDefinition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +403,7 @@
 				B48C3C771E67BD70000FD75B /* ViewController.m in Sources */,
 				B48C3C741E67BD70000FD75B /* AppDelegate.m in Sources */,
 				B48C3C711E67BD70000FD75B /* main.m in Sources */,
+				B48C3CAB1E67D4E5000FD75B /* BWEffectiveCodingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
+				GCC_PREFIX_HEADER = BWiOSEffectiveCoding/BWiOSEffectiveCoding.pch;
 				INFOPLIST_FILE = BWiOSEffectiveCoding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,6 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
+				GCC_PREFIX_HEADER = BWiOSEffectiveCoding/BWiOSEffectiveCoding.pch;
 				INFOPLIST_FILE = BWiOSEffectiveCoding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -593,6 +645,7 @@
 				B48C3C9B1E67BD70000FD75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48C3C9C1E67BD70000FD75B /* Build configuration list for PBXNativeTarget "BWiOSEffectiveCodingTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +654,7 @@
 				B48C3C9E1E67BD70000FD75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48C3C9F1E67BD70000FD75B /* Build configuration list for PBXNativeTarget "BWiOSEffectiveCodingUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +663,7 @@
 				B48C3CA11E67BD70000FD75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
