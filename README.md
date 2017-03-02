@@ -63,11 +63,58 @@ BWAPIManagerGetterTemplate(NSObject, apiManager1)
 
 ## Code Snippets
 
+使用代码片段提升编码效率
 
+### Xcode Code Snippets
+
+Xcode面板位置：Utilities -> Code Snippets Library
+
+![xcode_code_snippets](/Users/BobWong/BobWong/Development/Github/Development/BWEffectiveCoding/Resource/xcode_code_snippets.png)
+
+Code Snippets存储路径：~/Library/Developer/Xcode/UserData/CodeSnippets/
+
+说明：Each one is a plist file.
+
+### 编写Code Snippets
+
+步骤：选中编写好的代码片段 -> 长按拖动到Xcode代码片段面板 -> 定义自己的代码片段
+
+Completion Shortcut：代码片段的简写，接下来在项目开发中使用此值来快速生成对应的代码片段
+
+Platform、Language、Completion Scopes
+
+示例
+
+![xcode_add_code_snippets](/Users/BobWong/BobWong/Development/Github/Development/BWEffectiveCoding/Resource/xcode_add_code_snippets.png)
+
+
+
+### Objective-C Template Code
+
+属性定义
+
+```objective-c
+@property (strong, nonatomic) <#DataType#> *<#member#>;  ///< <#Comments#>
+@property (assign, nonatomic) <#DataType#> <#member#>;  ///< <#Comments#>
+@property (copy, nonatomic) <#ReturnType#>(^<#BlockName#>)(<#Parameters#>);  ///< <#Comments#>
+@property (copy, nonatomic) <#BlockType#> <#block#>;  ///< <#Comments#>
+```
+
+
+
+UI Template Code
+
+Class Template Code
+
+Project Template Code
 
 ## Code Generator
 
 开发工具
+
+Script
+
+Application
 
 ## Document
 
