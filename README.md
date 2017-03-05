@@ -183,7 +183,13 @@ View
 
 ## Document
 
-使用文档记录开发代码
+使用文档记录常用的开发代码
+
+备份重要的开发代码
+
+养成备份阶段性编写出来的代码的习惯
+
+记录将被删除的开发代码，供需要还原时使用
 
 ## Summary
 
@@ -191,6 +197,8 @@ View
 
 ## Reference
 
-JSONExport：
+JSONExport：https://github.com/Ahmed-Ali/JSONExport
 
 ## Follow Me
+
+Github：https://github.com/bobwongs
