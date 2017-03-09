@@ -71,7 +71,7 @@ BWAPIManagerGetterTemplate(NSObject, apiManager1)
 
 Xcode面板位置：Utilities -> Code Snippets Library
 
-![xcode_code_snippets](Resource/xcode_code_snippets.png)
+![xcode_code_snippets](http://om6ybddkq.bkt.clouddn.com/xcode_code_snippets.png)
 
 Code Snippets存储路径：~/Library/Developer/Xcode/UserData/CodeSnippets/
 
@@ -87,7 +87,7 @@ Platform、Language、Completion Scopes
 
 示例
 
-![xcode_add_code_snippets](Resource/xcode_add_code_snippets.png)
+![xcode_add_code_snippets](http://om6ybddkq.bkt.clouddn.com/xcode_add_code_snippets.png)
 
 
 
@@ -104,7 +104,7 @@ Platform、Language、Completion Scopes
 
 可以快速地对对应属性的类型、参数名、备注进行填充
 
-![code_snippets_property](Resource/code_snippets_property.png)
+![code_snippets_property](http://om6ybddkq.bkt.clouddn.com/code_snippets_property.png)
 
 ### UI Template Code
 
@@ -155,11 +155,11 @@ UI控件事件的代理
 
 ViewController
 
-![code_snippets_vc](Resource/code_snippets_vc.png)
+![code_snippets_vc](http://om6ybddkq.bkt.clouddn.com/code_snippets_vc.png)
 
 View
 
-![code_snippets_view](Resource/code_snippets_view.png)
+![code_snippets_view](http://om6ybddkq.bkt.clouddn.com/code_snippets_view.png)
 
 ### Project Template Code
 
@@ -177,9 +177,9 @@ View
 
 示例——MVC生成器
 
-![code_generator0](Resource/code_generator0.png)
+![code_generator0](http://om6ybddkq.bkt.clouddn.com/code_generator0.png)
 
-![code_generator1](Resource/code_generator1.png)
+![code_generator1](http://om6ybddkq.bkt.clouddn.com/code_generator1.png)
 
 ## Document
 
